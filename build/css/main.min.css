@@ -1467,11 +1467,11 @@ body {
     padding: 0 30px;
   }
   .header .logo {
-    width: 70px;
+    width: 110px;
     margin-right: auto;
   }
   .header__phone {
-    font-size: 14px;
+    font-size: 26px;
     line-height: 18px;
   }
   .header .dropdown {
@@ -1488,7 +1488,7 @@ body {
     margin-left: 0;
   }
   .header-menu {
-    font-size: 14px;
+    font-size: 26px;
     display: flex;
     align-items: center;
   }
@@ -1549,6 +1549,9 @@ body {
   .mobile-menu {
     top: 50px;
     right: 30px;
+  }
+  .header .logo {
+    width: 110px;
   }
   .main {
     margin: var(--m-50) 0;
