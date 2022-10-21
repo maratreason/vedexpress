@@ -1,0 +1,450 @@
+@media screen and (max-width: 1640px) {
+    .services {
+        &__wrapper {
+            height: 100%;
+        }
+        &__left {
+            padding: 100px;
+            margin-left: var(--m-30);
+        }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .container-fluid {
+        max-width: 1200px;
+    }
+    .container {
+        max-width: 1200px;
+    }
+    .header-menu {
+        display: flex;
+    }
+    .header__nav {
+        display: none;
+    }
+    .dropdown {
+        margin-right: var(--m-50);
+    }
+    .main .container-fluid {
+        display: none;
+    }
+    .header__phone {
+        display: block;
+    }
+    .main-russia__wrapper {
+        .main-russia {
+            right: -20%;
+        }
+        .main-city-1 {
+            right: calc(230px - 20%);
+        }
+        .main-city-2 {
+            right: calc(330px - 20%);
+        }
+        .main-city-3 {
+            right: calc(580px - 20%);
+        }
+    }
+    .work {
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .work-russia__wrapper {
+            .main-city {
+                display: none;
+            }
+        }
+        &__text {
+            width: 100%;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .services {
+        &__wrapper {
+            height: 100%;
+        }
+        &__left {
+            padding: 100px;
+        }
+        &__title {
+            font-size: var(--fs-3);
+        }
+        &__item {
+            font-size: 18px;
+            line-height: 42px;
+        }
+        &__right-title {
+            font-size: 28px;
+        }
+        &__right-subtitle {
+            font-size: 18px;
+            line-height: 32px;
+        }
+        &__right-item {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__right-link {
+            display: none;
+        }
+    }
+    .delivery {
+        &__cards {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    %main-title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .work__title {
+        padding-bottom: 10px;
+        &::before {
+            width: 15px;
+            height: 15px;
+            left: 20px;
+            top: 100%;
+        }
+        &::after {
+            width: 10px;
+            height: 10px;
+            left: 5px;
+            top: 100%;
+        }
+    }
+    .container-fluid {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    .main-russia__wrapper {
+        .main-russia {
+            right: -40%;
+        }
+        .main-city {
+            display: none;
+        }
+    }
+    .form-contact {
+        .form {
+            width: 100%;
+            background: none;
+            border: none;
+            &__inputs {
+                flex-wrap: wrap;
+            }
+            &__inputs-left {
+                width: 100%;
+            }
+            &__bottom {
+                flex-wrap: wrap;
+            }
+            &__btn {
+                order: -1;
+                width: 100%;
+            }
+            &__text {
+                margin-top: var(--m-20);
+            }
+        }
+    }
+    .footer {
+        .container {
+            grid-template-columns: 1fr;
+        }
+        &__offers {
+            margin-bottom: var(--m-50);
+        }
+        &__offices {
+            border-bottom: 1px solid #D8D8D8;
+            margin-bottom: var(--m-50);
+        }
+        &__offices-container {
+            background: transparent;
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .work__title {
+        padding-bottom: 10px;
+        &::before {
+            width: 10px;
+            height: 10px;
+            left: 15px;
+            top: 100%;
+        }
+        &::after {
+            width: 6px;
+            height: 6px;
+            left: 5px;
+            top: 100%;
+        }
+    }
+    .offers__bg {
+        display: none;
+    }
+    .offers,
+    .services,
+    .delivery,
+    .business,
+    .partners {
+        margin-top: var(--m-100);
+    }
+    .services {
+        &__wrapper {
+            display: none;
+        }
+        &__mobile {
+            display: block;
+        }
+        .accordion {
+            .services__item {
+                font-size: 18px;
+                line-height: 42px;
+            }
+            .services__right-title {
+                font-size: 28px;
+            }
+            .services__right-subtitle {
+                font-size: 16px;
+                line-height: 28px;
+            }
+            .services__right-item {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            .services__right-link {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    %main-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    %second-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    %second-subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .header {
+        margin-top: 0;
+        &.active {
+            top: -100px;
+            padding: 0 30px;
+        }
+        .logo {
+            width: 70px;
+            margin-right: auto;
+        }
+        &__phone {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .dropdown {
+            margin-right: var(--m-20);
+            &::after {
+                display: none;
+            }
+            .dropdown-box span {
+                display: none;
+            }
+            &-box {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+        &-menu {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+        &-menu__image {
+            width: 14px;
+            margin-top: 0;
+            margin-right: 5px;
+        }
+    }
+    .main {
+        &__title {
+            width: 100%;
+        }
+        &__subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+    .form-contact {
+        .form {
+            &-contact {
+                padding: 50px 0;
+            }
+            padding: 0;
+            .third-subtitle {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            &__input,
+            &__textarea {
+                padding: 11px 20px;
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+    .work__text {
+        margin-bottom: var(--m-50);
+    }
+    .work__list {
+        padding: var(--m-50) 0;
+    }
+
+    .offers,
+    .services,
+    .delivery,
+    .business,
+    .partners {
+        margin-top: var(--m-50);
+    }
+    .partners {
+        margin-bottom: var(--m-50);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobile {
+        padding: 50px 30px;
+        &__nav-link {
+            font-size: 16px;
+            line-height: 48px;
+        }
+        &-menu {
+            top: 50px;
+            right: 30px;
+        }
+    }
+    .main {
+        margin: var(--m-50) 0;
+        &__item {
+            font-size: 16px;
+            line-height: 24px;
+            &:not(:last-child) {
+                margin-bottom: var(--m-20);
+            }
+        }
+    }
+    .work {
+        .work-russia__wrapper {
+            display: none;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__item {
+            margin-bottom: var(--m-50);
+        }
+        &__item-number {
+            font-size: 14px;
+            top: -30px;
+        }
+        &__item-title {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 5px;
+        }
+        &__item-text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .slider__item {
+        padding: 20px 0;
+        img {
+            object-fit: contain;
+        }
+    }
+    .slider {
+        &__arrow {
+            width: 36px;
+            height: 36px;
+        }
+        &__arrow-left {
+            left: -17px;
+        }
+    
+        &__arrow-right {
+            right: -17px;
+        }
+    }
+    .footer {
+        &__offers {
+            flex-wrap: wrap;
+        }
+        &__offers-block {
+            width: 100%;
+            &:not(:last-child) {
+                margin-bottom: var(--m-50);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .delivery {
+        &__card {
+            background-size: cover !important;
+            &:hover {
+                background-size: cover;
+                .delivery__card-info {
+                    left: 50%;
+                }
+            }
+        }
+        &__card-info {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            padding: 20px;
+        }
+    }
+    .footer {
+        &__offices-container {
+            grid-template-columns: 1fr;
+        }
+        &__contacts {
+            width: 100%;
+        }
+        &__offers-item {
+            font-size: 16px;
+            line-height: 32px;
+        }
+        &__offices-box {
+            margin-bottom: var(--m-30);
+            &:last-child {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

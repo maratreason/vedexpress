@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+// Animations
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        -moz-box-shadow: 0 0 0 0 rgba(#4ddf19, 0.4);
+        box-shadow: 0 0 0 0 rgba(#4ddf19, 0.4);
+    }
+    70% {
+        transform: scale(1.2);
+        -moz-box-shadow: 0 0 10px 20px rgba(#4ddf19, 0);
+        box-shadow: 0 0 10px 20px rgba(#4ddf19, 0);
+    }
+    100% {
+        transform: scale(1);
+        -moz-box-shadow: 0 0 0 0 rgba(#4ddf19, 0);
+        box-shadow: 0 0 0 0 rgba(#4ddf19, 0);
+    }
+}
+
+@keyframes scaleMap {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes horizontMotion {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

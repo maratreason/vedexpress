@@ -1,0 +1,32 @@
+header.header(data-header)
+    img.logo(src="images/icons/Logo-header.svg")
+    nav.header__nav
+        ul.header__nav-list
+            +mobile-link("О нас", "#about")
+            +mobile-link("Услуги", "#services")
+            +mobile-link("Международные перевозки", "#delivery")
+            +mobile-link("Решение для бизнеса", "#business")
+            +mobile-link("Сборные грузы", "#")
+
+    .header__phone.main-phone +7 499 350 10 12
+
+    .header-lang.dropdown
+        .dropdown-box
+            img.dropdown__img(src="images/icons/lang-ru.svg", alt="")
+            span Ru
+        .dropdown__list
+            .dropdown__item(data-option="Ru")
+                img.dropdown__img(src="images/icons/lang-ru.svg", alt="" data-option="Ru")
+                span(data-option="Ru") Ru
+            .dropdown__item(data-option="De")
+                img.dropdown__img(src="images/icons/lang-de.svg", alt="" data-option="De")
+                span(data-option="De") De
+            .dropdown__item(data-option="En")
+                img.dropdown__img(src="images/icons/lang-en.svg", alt="" data-option="En")
+                span(data-option="En") En
+
+
+    .header-menu(data-menu)
+        img.header-menu__image(src="images/icons/menu.svg", alt="")
+        | Menu
+        
