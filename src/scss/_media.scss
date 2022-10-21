@@ -252,11 +252,11 @@
             padding: 0 30px;
         }
         .logo {
-            width: 110px;
             margin-right: auto;
+            width: 70px;
         }
         &__phone {
-            font-size: 26px;
+            font-size: 14px;
             line-height: 18px;
         }
         .dropdown {
@@ -273,7 +273,7 @@
             }
         }
         &-menu {
-            font-size: 26px;
+            font-size: 14px;
             display: flex;
             align-items: center;
         }
@@ -343,9 +343,6 @@
             right: 30px;
         }
     }
-    .header .logo {
-        width: 110px;
-    }
     .main {
         margin: var(--m-50) 0;
         &__item {
@@ -409,6 +406,9 @@
             &:not(:last-child) {
                 margin-bottom: var(--m-50);
             }
+        }
+        &__offices-container {
+            grid-template-columns: 1fr;
         }
     }
 }
